@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/base/_settings.css';
 import '../styles/components/_about.css';
+import { Link } from 'react-router-dom';
 import backgroundImage from '../images/background-images.jpg';
 
 const About = ()=>  {
@@ -16,13 +16,25 @@ const About = ()=>  {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-xl-6">
                             <div className="about-image">
-                                <img alt="About" src={backgroundImage}/>
+                                <img className="about-image" alt="About" src={backgroundImage}/>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="about-content"></div>
+                        <div className="col-xl-6">
+                            <div className="about-content contents">
+                                <h3>I am <span className="color-theme">Prahlad Kumar</span></h3>
+                                <p>I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more &amp; more interactive with web animations.</p>
+                                <ul>
+                                    <li><b>Full Name</b> : Devid Chester</li>
+                                    <li><b>Age</b> : 24 Years</li>
+                                    <li><b>Nationality</b> : American</li>
+                                    <li><b>Languages</b> : English, French</li>
+                                    <li><b>Address</b> : 121 King Street, Melbourne, Australia</li>
+                                    <li><b>Freelance</b> : Available</li>
+                                </ul>
+                                <Link className="button btn" to="/files/empty.pdf">Download CV</Link>
+                            </div>
                         </div>
                     </div>
                 </div> 

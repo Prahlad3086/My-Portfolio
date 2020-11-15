@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="bubble-generator">
             <div className="main-content">
-                <div className="container">
+                <div className="home-container container">
                 <div className="cell">
                     <h1>
                     Hi, I am
