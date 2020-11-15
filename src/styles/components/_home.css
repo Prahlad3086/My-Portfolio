@@ -1,0 +1,104 @@
+@import '../base/_settings.css';
+
+.main-content{
+  margin-top: 30vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cell{
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.cell h1{
+  color: var(--light);
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.cell h1 p{
+  display: inline-block;
+  font-size: 40px;
+  color: var(--blue);
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.cell p{
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.cell ul{
+  list-style-type: none;
+}
+
+.cell ul li{
+  display: inline-block;
+}
+
+.cell .fb{
+  margin-left: -10px;
+}
+
+.cell .insta, .git{
+  margin-left: 20px;
+}
+
+.cell ul li a .fab{
+  font-size: 40px;
+  color:  #a4acc4;
+}
+
+.cell ul li a .fab:hover{
+  color: var(--blue);
+}
+
+@keyframes animate{
+  0%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  99%{
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-1200%);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .main-content{
+    margin-top: 25vh;
+  }
+  .container{
+    margin-top: 30vh;
+  }
+}
+
+@media only screen and (max-width: 1499px) and (min-width: 801px){
+  .container{
+    margin-top: 35vh;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .main-content{
+    margin: 0;
+    margin-top: 350px;
+  }
+  .bubble-generator{
+    width: 100%;
+  }
+}
