@@ -26,11 +26,11 @@ const About = ()=>  {
                                 <h3>I am <span className="color-theme">Prahlad Kumar</span></h3>
                                 <p>I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more &amp; more interactive with web animations.</p>
                                 <ul>
-                                    <li><b>Full Name</b> : Devid Chester</li>
-                                    <li><b>Age</b> : 24 Years</li>
-                                    <li><b>Nationality</b> : American</li>
-                                    <li><b>Languages</b> : English, French</li>
-                                    <li><b>Address</b> : 121 King Street, Melbourne, Australia</li>
+                                    <li><b>Full Name</b> : Prahlad Kumar</li>
+                                    <li><b>Age</b> : 20 Years</li>
+                                    <li><b>Nationality</b> : Indian</li>
+                                    <li><b>Languages</b> : English, Hindi</li>
+                                    <li><b>Address</b> : Jamui(811307), Bihar, India</li>
                                     <li><b>Freelance</b> : Available</li>
                                 </ul>
                                 <Link className="button btn" to="/files/empty.pdf">Download CV</Link>

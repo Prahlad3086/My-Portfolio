@@ -41,8 +41,8 @@ img{
 
 .contents h3{
     color: var(--white);
-    font-size: 40px;
-    margin: -5px 0px 20px;
+    font-size: 36px;
+    margin: 10px 0px 20px;
 }
 
 .color-theme{
@@ -83,7 +83,10 @@ img{
     .area-top-padding{
         padding-top: 100px;
     }
-    
+
+    .contents h3{
+        margin: -5px 0px 20px;
+    }
 }
 
 @media only screen and (min-width: 1300px){  /* min-width: 1000px  */
