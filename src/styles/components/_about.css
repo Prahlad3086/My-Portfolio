@@ -1,5 +1,9 @@
 @import '../base/_settings.css';
 
+.mt-30{
+    margin-top: 30px;
+}
+
 .area-top-padding{
     padding-top: 80px;
 }
@@ -53,6 +57,7 @@ img{
 .about-content ul{
     list-style: none;
     margin-bottom: 2rem;
+    letter-spacing: 1px;
 }
 
 .about-content ul b{
@@ -73,6 +78,43 @@ img{
 .button:hover{
     color: var(--dark);
     background-color: var(--white);
+}
+
+.service{
+    border: 1px solid rgb(46, 52, 78);
+    border-top: 5px solid rgb(46, 52, 78);
+    padding: 30px;
+    background: rgba(27, 32, 53, 0.699);
+    transition: all .4s ease-in-out;
+}
+
+.service:hover{
+    border-top-color: var(--blue);
+}
+
+.service-icon{
+    color: var(--blue);
+    font-size: 3.5rem;
+}
+
+.service-icon-bottom{
+    margin-top: 18px;
+    height: 2.5px;
+    width: 60px;
+    border-radius: 2px;
+    background: rgb(46, 52, 78);
+}
+
+.service h5{
+    margin-top: 20px;
+    color: var(--white);
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.service p{
+    margin-top: 20px;
+    letter-spacing: 0.2px;
 }
 
 @media only screen and (max-width: 960px){  /* max-width: 760px  */

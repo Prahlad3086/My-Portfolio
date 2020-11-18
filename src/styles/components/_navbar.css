@@ -141,4 +141,8 @@ hr.horizontal-lines{
     .nav-text a{
         font-size: 22px;
     }
+
+    .sidebar-container{
+        position: fixed;
+    }
 }

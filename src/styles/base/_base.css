@@ -10,13 +10,12 @@
 body {
     margin: 0;
     font-family: 'Roboto Slab', serif;
-    overflow: hidden!important;
+    /* overflow: hidden!important; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 18px;
     line-height: 1.8rem;
     color: #a4acc4;
-    font-weight: 400;
     background: #10121b;
         background-image: initial;
         background-position-x: initial;

@@ -2,6 +2,9 @@ import React from 'react';
 import '../styles/components/_about.css';
 import { Link } from 'react-router-dom';
 import backgroundImage from '../images/background-images.jpg';
+import { IoIosColorPalette } from 'react-icons/io';
+import { AiOutlineMobile } from 'react-icons/ai';
+import { RiCodeSSlashLine } from 'react-icons/ri';
 
 const About = ()=>  {
     return (
@@ -48,6 +51,34 @@ const About = ()=>  {
                             <div class="progress-bar progress-bar-2" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    <div className="service-wrapper">
+                        <div className="row mt-30 reverse">
+                            <div className="col-xl-4 col-lg-6 col-md-12 mt-30">
+                                <div className="service">
+                                    <span className="service-icon"><IoIosColorPalette /></span>
+                                    <div className="service-icon-bottom"></div>
+                                    <h5>Web Design</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.</p>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-6 col-md-12 mt-30">
+                                <div className="service">
+                                    <span className="service-icon"><RiCodeSSlashLine /></span>
+                                    <div className="service-icon-bottom"></div>
+                                    <h5>Web Development</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.</p>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-6 col-md-12 mt-30">
+                                <div className="service">
+                                    <span className="service-icon"><AiOutlineMobile /></span>
+                                    <div className="service-icon-bottom"></div>
+                                    <h5>Mobile Application</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="reviews-area area-top-padding">  
@@ -57,6 +88,11 @@ const About = ()=>  {
                         <div class="progress">
                             <div class="progress-bar progress-bar-1" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             <div class="progress-bar progress-bar-2" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center">
+                        <div className="col-md-12">
+                            
                         </div>
                     </div>
                 </div>
