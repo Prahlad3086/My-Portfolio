@@ -58,11 +58,13 @@ img{
     list-style: none;
     margin-bottom: 2rem;
     letter-spacing: 1px;
+    font-size: 16px;
 }
 
 .about-content ul b{
     display: inline-block;
     width: 120px;
+    font-size: 18px;
     margin: 2px 0px;
 }
 

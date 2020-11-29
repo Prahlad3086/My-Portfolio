@@ -1,0 +1,174 @@
+@import '../base/_settings.css';
+
+.area-top-padding{
+    padding-top: 80px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.section-title h2{
+    font-size: 40px;
+}
+
+.progress-title{
+    height: 6px;
+    max-width: 150px;
+}
+
+.progress-bar-title{
+    font-size: 24px;
+    color: var(--white);
+}
+
+.progress-measure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.progress-measure span{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.progress-measure-percentage{
+    margin-left: 35px;
+    margin-top: 14px;
+    width: 100%;
+    background: rgb(46, 52, 78);
+    height: 7px;
+    border-radius: 2px;
+}
+
+.progress-bar-1{
+    background: var(--primary);
+    height: 6px;
+    border-radius: 2px;
+}
+
+.html5{
+    width: 95%;
+}
+
+.css3{
+    width: 90%;
+}
+
+.javascript{
+    width: 75%;
+}
+
+.jquery{
+    width: 80%;
+}
+
+.reactjs{
+    width: 85%;
+}
+
+.photoshop{
+    width: 65%;
+}
+
+.small-title{
+    display: flex;
+    flex-direction: row;
+    max-width: 320px;
+}
+
+.usergraduate{
+    max-width: 400px;
+}
+
+.small-title span{
+    font-size: 30px;
+}
+
+.small-title h4{
+    font-size: 28px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.resume-wrapper{
+    border-left: 3px solid #2e344e;
+}
+
+.resume-summary::before {
+    content: "Ó";
+    font-size: 15px;
+    margin-left: -30px;
+    color: #10121b;
+    background: #10121b;
+    border-radius: 50%;
+    border: 3px solid #2e344e;
+}
+
+.resume-summary{
+    padding-left: 20px;
+}
+
+.resume-summary h6{
+    margin-top: -25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.resume-details{
+    padding-left: 20px;
+}
+
+.resume-details h5{
+    color: var(--blue);
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+.resume-details h6{
+    color: var(--white);
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+.resume-details p{
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
+
+@media screen and (max-width: 961px){
+    .small-title h4{
+        font-size: 24px;
+        margin-left: 6px;
+    }
+}
+
+@media screen and (min-width: 961px)/* min-width: 761px  */ and (max-width: 1299px)/* max-width: 999px  */{
+    .area-top-padding{
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .area-top-padding{
+        padding-top: 120px;
+    }
+
+    .resume-main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1480px){
+    .resume-main{
+        margin-left: 15%;
+    }
+}
