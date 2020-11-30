@@ -14,11 +14,12 @@
     border-radius: 6px;
     height: 60px;
     margin-top: 1rem;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
     background:  #191d2b;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #2e344e;
 }
 
 .menu-bars{
@@ -124,6 +125,12 @@ hr.horizontal-lines{
     }
     .nav-text a{
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 700px)/* min-width: 761px  */ and (max-width: 1299px)/* max-width: 999px  */{
+    .navbar{
+        margin-right: 2rem;
     }
 }
 

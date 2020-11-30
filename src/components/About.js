@@ -8,7 +8,7 @@ import { RiCodeSSlashLine } from 'react-icons/ri';
 
 const About = ()=>  {
     return (
-        <div className="about-main">
+        <div className="about-main pb-section">
             <div className="about-area area-top-padding"> 
                 <div className="container">
                     <div className="section-title">

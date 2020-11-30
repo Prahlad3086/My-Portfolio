@@ -1,0 +1,137 @@
+@import '../base//_settings.css';
+
+.area-top-padding{
+    padding-top: 80px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.pb-section{
+    padding-bottom: 80px;
+}
+
+.section-title h2{
+    font-size: 40px;
+}
+
+.progress{
+    height: 6px;
+    max-width: 150px;
+}
+
+.progress-bar-1{
+    width: 35%;
+    background: var(--primary);
+    height: 6px;
+}
+
+.progress-bar-2{
+    width: 65%;
+    background: #fff;
+    height: 6px;
+}
+
+.contact-info-block{
+    padding: 30px;
+    background: #191d2b;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contact-info-block-icon{
+    display: inline-block;
+    width: 70px;
+    font-size: 35px;
+    height: 70px;
+    max-width: 70px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #2e344e;
+    margin-right: 20px;
+}
+
+.contact-info-block-content{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 70px;
+}
+
+.mail{
+    color: inherit;
+}
+
+.mail-2{
+    margin-top: -15px;
+}
+
+.mail:hover{
+    color: var(--blue);
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.contact-info-block-content h6{
+    color: var(--white);
+    font-size: 26px;
+}
+
+.contact-info-block-content p{
+    font-size: 16px;
+}
+
+@media screen and (min-width: 961px)/* min-width: 761px  */ and (max-width: 1299px)/* max-width: 999px  */{
+    .area-top-padding{
+        padding-top: 100px;
+    }
+
+    .pb-section{
+        padding-bottom: 100px;
+    }
+
+    .contact-info-block{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .contact-info-block-content{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .area-top-padding{
+        padding-top: 120px;
+    }
+
+    .pb-section{
+        padding-bottom: 120px;
+    }
+    
+    .contact-info-block{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .contact-info-block-content{
+        margin-top: 0;
+    }
+
+    .contact-main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1480px){
+    .contact-main{
+        margin-left: 15%;
+    }
+    
+}

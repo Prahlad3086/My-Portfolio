@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/components/_resume.css';
 import { BsFillBriefcaseFill } from 'react-icons/bs';
-import { FaUserGraduate } from 'react-icons/fa';    
+import { FaUserGraduate } from 'react-icons/fa';   
 
 const Resume = ()=>  {
     return (
-        <div className="resume-main">
+        <div className="resume-main pb-section">
             <div className="skills-area area-top-padding">
                 <div className="container">
                     <div className="section-title">
