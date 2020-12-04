@@ -17,6 +17,30 @@ const Contact = ()=>  {
                 </div>
                 <div className="row">
                     <div className="col-xl-6">
+                        <div className="contact-formwrapper">
+                            <h4>Get in Touch</h4>
+                            <form className="contact-form">
+                                <div className="form-field">
+                                    <legend htmlFor="contact-form-name" className="form-field-name">Enter your name*</legend>
+                                    <input type="text" name="name" id="contact-form-name" />
+                                </div>
+                                <div className="form-field">
+                                    <legend htmlFor="contact-form-email" className="form-field-name">Enter your email*</legend>
+                                    <input type="text" name="email" id="contact-form-email" />
+                                </div>
+                                <div className="form-field">
+                                    <legend htmlFor="contact-form-subject" className="form-field-name">Enter your subject*</legend>
+                                    <input type="text" name="subject" id="contact-form-subject" />
+                                </div>
+                                <div className="form-field">
+                                    <legend className="form-field-name">Enter your message*</legend>
+                                    <textarea name="message" id="contact-form-message" cols="30" rows="6" />
+                                </div>
+                                <div className="form-field">
+                                    <button type="submit" className="send-button">SEND MAIL</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                     <div className="col-xl-6">
                         <div className="contact-info">
