@@ -1,4 +1,4 @@
-@import '../base//_settings.css';
+@import '../base/_settings.css';
 
 .area-top-padding{
     padding-top: 80px;
@@ -73,13 +73,16 @@
     width: 100%;
     background: transparent;
     border: 1px solid #2e344e;
-    color: #a4acc4;
+    /* color: #a4acc4; */
+    color: white;
     outline: none;
-    font-size: 1rem;
+    font-family: monospace;
+    font-size: 1.2rem;
+    padding-left: 25px;
 }
 
 .form-field textarea{
-    padding: 0 15px;
+    padding: 15px 25px;
 }
 
 button, input{

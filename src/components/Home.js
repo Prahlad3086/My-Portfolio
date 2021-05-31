@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
                 <div className="cell">
                     <ul>
-                    <li className="fb"><a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/profile.php?id=100009269886303"><i class="fab fa-facebook"></i></a></li>
+                    <li className="fb"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/prahlad-kumar-37b74b1b2/"><i class="fab fa-linkedin"></i></a></li>
                     <li className="insta"><a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/prahlad_3086"><i class="fab fa-instagram"></i></a></li>
                     <li className="git"><a rel="noopener noreferrer" target="_blank" href="https://github.com/Prahlad3086"><i class="fab fa-github"></i></a></li>
                     </ul>

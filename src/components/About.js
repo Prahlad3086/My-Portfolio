@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/components/_about.css';
-import { Link } from 'react-router-dom';
 import backgroundImage from '../images/background-images.jpg';
 import { IoIosColorPalette } from 'react-icons/io';
 import { AiOutlineMobile } from 'react-icons/ai';
@@ -36,7 +35,7 @@ const About = ()=>  {
                                     <li><b>Address</b> : Jamui(811307), Bihar, India</li>
                                     <li><b>Freelance</b> : Available</li>
                                 </ul>
-                                <Link className="button btn" to="/files/empty.pdf">Download CV</Link>
+                                <a className="button btn" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1QrPHJpkskYq8cbhAmwtikfutv4i79i78/view?usp=sharing">Download CV</a>
                             </div>
                         </div>
                     </div>

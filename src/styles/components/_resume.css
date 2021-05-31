@@ -56,27 +56,27 @@
     border-radius: 2px;
 }
 
-.html5{
+#html5{
     width: 95%;
 }
 
-.css3{
+#css3{
     width: 90%;
 }
 
-.javascript{
+#javascript{
     width: 75%;
 }
 
-.jquery{
+#jquery{
     width: 80%;
 }
 
-.reactjs{
+#reactjs{
     width: 85%;
 }
 
-.photoshop{
+#photoshop{
     width: 65%;
 }
 

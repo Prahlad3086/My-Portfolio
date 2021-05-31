@@ -1,0 +1,117 @@
+@import '../base/_settings.css';
+
+.area-top-padding{
+    padding-top: 80px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.pb-section{
+    padding-bottom: 80px;
+}
+
+.section-title h2{
+    font-size: 40px;
+}
+
+.progress{
+    height: 6px;
+    max-width: 150px;
+}
+
+.progress-bar-1{
+    width: 35%;
+    background: var(--primary);
+    height: 6px;
+}
+
+.progress-bar-2{
+    width: 65%;
+    background: #fff;
+    height: 6px;
+}
+
+.portfolio-image img{
+    width: 100%;
+}
+
+.portfolio h5{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.portfolio h5 a{
+    color: #fff;
+}
+
+.portfolio h5 a:hover{
+    text-decoration: unset;
+    color: var(--primary);
+    transition: ease-in-out .5s;
+}
+
+.portfolio h6{
+    color: #a4acc4;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 960px){
+    .portfolio h5 a{
+        font-size: 1.5rem;
+    }
+
+    .portfolio h6{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 961px)/* min-width: 761px  */ and (max-width: 1299px)/* max-width: 999px  */{
+    .area-top-padding{
+        padding-top: 100px;
+    }
+
+    .pb-section{
+        padding-bottom: 100px;
+    }
+
+    .portfolio h5 a{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .area-top-padding{
+        padding-top: 120px;
+    }
+
+    .pb-section{
+        padding-bottom: 120px;
+    }
+
+    .portfolio-main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .portfolio h5 a{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 1480px){
+    .portfolio-main{
+        margin-left: 15%;
+    }
+
+    .portfolio h5 a{
+        font-size: 1.8rem;
+    }
+    
+}

@@ -23,7 +23,7 @@ const Resume = ()=>  {
                                     <div className="progress-measure">
                                         <span className="percentage">95%</span>
                                         <div class="progress-measure-percentage">
-                                            <div class="progress-bar progress-bar-1 html5" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar progress-bar-1" id="html5" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -34,7 +34,7 @@ const Resume = ()=>  {
                                     <div className="progress-measure">
                                         <span className="percentage">90%</span>
                                         <div class="progress-measure-percentage">
-                                            <div class="progress-bar progress-bar-1 css3" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar progress-bar-1" id="css3" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ const Resume = ()=>  {
                                     <div className="progress-measure">
                                         <span className="percentage">75%</span>
                                         <div class="progress-measure-percentage">
-                                            <div class="progress-bar progress-bar-1 javascript" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar progress-bar-1" id="javascript" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ const Resume = ()=>  {
                                     <div className="progress-measure">
                                         <span className="percentage">80%</span>
                                         <div class="progress-measure-percentage">
-                                            <div class="progress-bar progress-bar-1 jquery" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar progress-bar-1" id="jquery" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const Resume = ()=>  {
                                     <div className="progress-measure">
                                         <span className="percentage">85%</span>
                                         <div class="progress-measure-percentage">
-                                            <div class="progress-bar progress-bar-1 reactjs" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar progress-bar-1" id="reactjs" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -78,7 +78,7 @@ const Resume = ()=>  {
                                     <div className="progress-measure">
                                         <span className="percentage">65%</span>
                                         <div class="progress-measure-percentage">
-                                            <div class="progress-bar progress-bar-1 photoshop" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar progress-bar-1" id="photoshop" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
