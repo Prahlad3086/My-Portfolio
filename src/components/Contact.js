@@ -43,9 +43,9 @@ class Contact extends React.Component{
         console.log('The function is called');
         emailjs.sendForm('service_xxudskg', 'template_7t0573a', '#contact-form', 'user_CrfW62aLf8lQ0LcVLFoId')
             .then((result) => {
-                alert(result.text, 'Email sent successfully');
+                alert(result.text+', Email sent successfully');
             }, (error) => {
-                alert(error.text, 'There is a problem please try again');
+                alert(error.text+', There is a problem please try again');
             });
         this.setState({
             name: '',
@@ -99,7 +99,7 @@ class Contact extends React.Component{
                                     <span className="contact-info-block-icon"><FaPhoneAlt /></span>
                                     <div className="contact-info-block-content">
                                         <h6>Phone</h6>
-                                        <p>+91-7004293401</p>
+                                        <p>+91-70XXXXXX01</p>
                                     </div>
                                 </div>
                                 <div className="contact-info-block mt-30">
